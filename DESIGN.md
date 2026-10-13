@@ -54,11 +54,6 @@ components:
     height: "48px"
   button-primary-hover:
     backgroundColor: "{colors.gold-hover}"
-  button-outline:
-    backgroundColor: "transparent"
-    textColor: "{colors.cream}"
-    rounded: "{rounded.pill}"
-    padding: "12.8px 25.6px"
   review-panel:
     backgroundColor: "{colors.olive-band}"
     textColor: "{colors.cream}"
@@ -93,7 +88,7 @@ Verdes de oliva profundos com creme esverdeado e um dourado de bronze claro, tir
 
 ### Neutral
 - **Verde-Oliva do Vídeo** (#354323): chão da página e do hero; é exatamente o fundo do vídeo do logo, o que o faz fundir sem moldura.
-- **Verde de Faixa** (#2b371c): seções alternadas (Atendimento, Como começar, Local) e painéis de avaliação dentro da faixa clara.
+- **Verde de Faixa** (#2b371c): seções alternadas (Atendimento, Avaliações, Contato) e painéis de avaliação dentro da faixa clara.
 - **Verde Profundo** (#212b15): rodapé.
 - **Verde Elevado** (#3f512c): placeholder de imagens e mapa antes de carregar.
 - **Creme** (#f4efe3): texto principal e títulos.
@@ -153,7 +148,7 @@ Duas regras: botões e controles circulares são pílulas (999px); imagens, pain
 - **Shape:** pílula (999px), altura mínima 48px.
 - **Primary:** fundo dourado (#ceb16d), texto verde muito escuro (#1e2812), padding 0.8rem 1.6rem, ícone de WhatsApp à esquerda. Rótulo único: "Agendar pelo WhatsApp".
 - **Hover / Focus:** só com mouse: sobe 2px, clareia para #dcc283 e o ícone do WhatsApp inclina 8 graus; foco com anel creme de 2px. Pressionar: escala 0.97 em 160ms (vale para botões, menu, redes e botão flutuante).
-- **Outline:** contorno dourado a 30%, texto creme; no hover contorno e texto ficam dourados. Usado para escolher o formato (sessão ou plano).
+- **Text link:** link de seta dourado ("Falar sobre isso") para ações secundárias, como a psicoterapia individual.
 
 ### Cards / Containers
 - **Review panel:** fundo de faixa (#2b371c), 14px, padding 1.5rem, estrelas douradas, nome em peso 600 e fonte em creme esverdeado. A avaliação de destaque não usa painel, só tipografia grande.
@@ -177,4 +172,4 @@ Palco quadrado com o vídeo do logo (WebM e MP4, 720px, sem som), borda esmaecid
 - **Don't** usar rótulos acima de títulos de seção, numeração de seção ou fileiras de cartões iguais.
 - **Don't** redesenhar, recolorir ou vetorizar o logo; use apenas o arquivo original da cliente.
 - **Don't** usar sombras decorativas, brilho dourado ou texto em degradê.
-- **Don't** inventar preços, durações, formas de pagamento ou detalhes dos planos.
+- **Don't** inventar preços, durações, formas de pagamento ou planos: a cliente não trabalha com sessão avulsa nem com planos de 90 e 180 dias.

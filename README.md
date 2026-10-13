@@ -63,7 +63,7 @@ O botão flutuante do WhatsApp aparece só no celular e tablet (até 1024 px).
   `<script data-goatcounter="https://teocode.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>`
 - **Como funcionam os eventos:** um único listener em `assets/js/main.js` chama `window.goatcounter.count({ path, title, event: true })` quando qualquer elemento com `data-gc-event` é clicado. Se o rastreio falhar (adblock), o link do WhatsApp abre normalmente.
 - **Eventos de clique (um por seção):**
-  `cta-menu`, `cta-hero`, `cta-individual`, `cta-casal`, `cta-sessao-pontual`, `cta-plano-90-dias`, `cta-plano-180-dias`, `cta-avaliacoes`, `cta-contato`, `cta-footer`, `cta-flutuante`.
+  `cta-menu`, `cta-hero`, `cta-casal`, `cta-individual`, `cta-avaliacoes`, `cta-contato`, `cta-footer`, `cta-flutuante`.
 - **Como ver:** no painel do GoatCounter, *Dashboard > Events*.
 - **Lembrete importante:** o domínio onde o site for publicado precisa estar cadastrado no painel do GoatCounter (*Settings > Sites*), senão as visitas não são contadas.
 
@@ -78,7 +78,8 @@ O botão flutuante do WhatsApp aparece só no celular e tablet (até 1024 px).
 
 1. **Logo em SVG** (opcional). O site usa o PNG original com transparência (`_fontes/logo/logo-gislene-silva.png`, 2460 px), convertido para `assets/img/logo-gislene-silva.webp`. Um SVG deixaria o logo nítido em qualquer tamanho.
 2. **Autorizar a exibição das avaliações** (publicidade em psicologia é regulada pelo CFP; a decisão é dela).
-3. **Palestras e workshops:** saíram do site por falta de descrição (só aparece o título no Google). Voltam se ela confirmar. Confirmar também o texto dos planos (sessão pontual, 90 e 180 dias). O site não mostra valores, duração nem forma de pagamento.
+3. **Palestras e workshops:** saíram do site por falta de descrição (só aparece o título no Google). Voltam se ela confirmar. A cliente informou que **não** trabalha com sessão avulsa nem planos de 90 e 180 dias, então a seção "Escolha como começar" foi removida. O site não mostra valores, duração nem forma de pagamento.
+3b. **Terapia de casal** é o carro-chefe e tem o bloco maior. Falta confirmar com ela: se é presencial, online ou os dois, se os dois parceiros vêm juntos e como é o primeiro passo. Enquanto isso, o texto só diz o que as fontes dela sustentam.
 4. **E-mail:** o site usa `psigislenesilva@outlook.com`, tirado do cartão digital dela (`_fontes/logo/cartao-gislene.pdf`). Confirmar que é o e-mail para exibir.
 5. **Fotos em alta resolução** (retrato e consultório). Hoje: retrato 960 px e consultório 900x1200 px, do perfil do Google.
 6. **Atualizar a nota e o número de avaliações** (5,0 e 104 em 06/10/2026) se mudarem.

@@ -28,7 +28,7 @@ Practice at R. dos Bandeirantes, 215 - Vila Bocaina, Mauá - SP, 09310-360. Appo
 
 ## Capabilities and Constraints
 
-- Offer (variable OFERTA): single session / 90-day plan / 180-day plan. No prices, no session duration, no payment methods are shown (client decision).
+- Offer: the client does NOT sell single-session, 90-day or 180-day plans (confirmed by the client on 2026-10-08). Couples therapy is her flagship service; individual psychotherapy is secondary. No prices, no session duration, no payment methods are shown (client decision).
 - Services listed on Google: Online and in-person care, psychotherapy for adolescents/young people/adults, treatment for anxiety and depression, lectures (Palestras). Her own site adds couples therapy and workshops.
 - E-mail: psigislenesilva@outlook.com, taken from the client's own digital business card (cartao-gislene.pdf).
 - Psychology advertising is regulated by the CFP: no promises of results, no price promotions. Copy stays informative.

@@ -104,12 +104,10 @@ p { max-width: 62ch; text-wrap: pretty; }
 .btn .icon { transition: transform 200ms var(--ease-out); }
 .btn-ouro { background: var(--ouro); color: var(--ouro-tinta); }
 .btn-ouro:focus-visible { outline-color: var(--creme); }
-.btn-linha { border-color: var(--linha); color: var(--creme); }
 .btn-sm { min-height: 2.5rem; padding: 0.5rem 1.15rem; font-size: 0.9375rem; }
 @media (hover: hover) and (pointer: fine) {
   .btn-ouro:hover { background: var(--ouro-hover); transform: translateY(-2px); }
   .btn-ouro:hover .icon { transform: rotate(-8deg) scale(1.08); }
-  .btn-linha:hover { border-color: var(--ouro); color: var(--ouro); transform: translateY(-2px); }
 }
 .btn:active { transform: scale(0.97); } /* depois do hover: o clique vence */
 
@@ -246,11 +244,21 @@ p { max-width: 62ch; text-wrap: pretty; }
 @keyframes aparecer { from { opacity: 0; } }
 
 /* ---------- ATENDIMENTO ----------
-   Dois caminhos grandes, uma frase cada, e uma linha de temas. Espaço no lugar de texto. */
+   Casal em destaque, individual menor, e uma linha de temas. Espaço no lugar de texto. */
 .caminho { border-top: 1px solid var(--linha); padding-top: 2rem; display: grid; grid-template-rows: auto 1fr auto; gap: 1.1rem; }
 .caminho h3 { font-size: clamp(2rem, 3.4vw, 2.75rem); line-height: 1.12; }
 .caminho p { color: var(--creme-2); font-size: 1.1875rem; max-width: 30ch; }
 .caminho .link-seta { justify-self: start; margin-top: 0.4rem; }
+.caminho-menor { grid-template-rows: auto; align-self: start; }
+.caminho-menor h3 { font-size: clamp(1.6rem, 2.4vw, 2rem); }
+/* carro-chefe: painel maior, título gigante e o único botão cheio da seção */
+.casal {
+  background: var(--verde); border-radius: var(--raio);
+  padding: clamp(2rem, 4.5vw, 3.75rem);
+  display: grid; align-content: center; gap: 1.5rem;
+}
+.casal h3 { font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.05; }
+.casal p { color: var(--creme-2); font-size: 1.25rem; max-width: 34ch; }
 .temas {
   font-family: var(--serif); font-size: clamp(1.4rem, 2.4vw, 1.875rem); line-height: 1.35;
   color: var(--creme); max-width: 34ch;
@@ -263,14 +271,6 @@ p { max-width: 62ch; text-wrap: pretty; }
 .foto img { width: 100%; height: 100%; object-fit: cover; }
 .fatos dt { font-size: 0.8125rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ouro); }
 .fatos dd { margin: 0.2rem 0 1.25rem; color: var(--creme); }
-
-/* ---------- COMO COMEÇAR (oferta) ---------- */
-.formato {
-  display: grid; gap: 1rem 2.5rem; align-items: center;
-  padding-block: 2rem; border-top: 1px solid var(--linha);
-}
-.formato:last-of-type { border-bottom: 1px solid var(--linha); }
-@media (min-width: 900px) { .formato { grid-template-columns: 1.1fr 1.4fr auto; } }
 
 /* ---------- AVALIAÇÕES ---------- */
 .quote-destaque {
